@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Browser {
 	private String name;
 	private ArrayList<String> urls;
+
 	
 	Browser(String name){
 		this.name = name;
@@ -18,4 +19,7 @@ public class Browser {
 	void whoAmI() {
 		System.out.println("I am a browser");
 	}
+	
+
+	
 }

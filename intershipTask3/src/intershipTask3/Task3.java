@@ -49,5 +49,6 @@ public class Task3 {
 		
 		containers = ((Firefox) browser).viewAllContainers();
 		System.out.println(Arrays.toString(containers));
+		
 	}
 }
